@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GameActivity">
+
+    <EditText
+        android:id="@+id/edtText_Two"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/edtTextTwoHint"
+        android:inputType="number"
+        app:layout_constraintBottom_toTopOf="@+id/edtText_Three"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtText_One" />
+
+    <TextView
+        android:id="@+id/txtView_Four"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txtViewFour"
+        app:layout_constraintBottom_toTopOf="@+id/txtView_Five"
+        app:layout_constraintEnd_toStartOf="@+id/edtText_Four"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtView_Three" />
+
+    <TextView
+        android:id="@+id/txtView_Three"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txtViewThree"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/edtText_Three"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtView_Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txtViewName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtView_One"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txtViewOne"
+        app:layout_constraintBottom_toTopOf="@+id/txtView_Three"
+        app:layout_constraintEnd_toStartOf="@+id/edtText_One"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtView_Name" />
+
+    <TextView
+        android:id="@+id/txtView_Two"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txtViewTwo"
+        app:layout_constraintBottom_toTopOf="@+id/txtView_Three"
+        app:layout_constraintEnd_toStartOf="@+id/edtText_Two"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtView_One" />
+
+    <TextView
+        android:id="@+id/txtView_Five"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txtViewFive"
+        app:layout_constraintBottom_toTopOf="@+id/btn_Submit"
+        app:layout_constraintEnd_toStartOf="@+id/edtText_Five"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtView_Three" />
+
+    <EditText
+        android:id="@+id/edtText_One"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/edtTextOneHint"
+        android:inputType="number"
+        app:layout_constraintBottom_toTopOf="@+id/edtText_Three"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtView_Name" />
+
+    <EditText
+        android:id="@+id/edtText_Three"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/edtTextThreeHint"
+        android:inputType="numberDecimal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/edtText_Four"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/edtTextFourHint"
+        android:inputType="numberDecimal"
+        app:layout_constraintBottom_toTopOf="@+id/edtText_Five"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtText_Three" />
+
+    <EditText
+        android:id="@+id/edtText_Five"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/edtTextFiveHint"
+        android:inputType="numberDecimal"
+        app:layout_constraintBottom_toTopOf="@+id/btn_Submit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtText_Three" />
+
+    <Button
+        android:id="@+id/btn_Submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnSubmit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

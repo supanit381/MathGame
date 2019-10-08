@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">MathGame</string>
+    <string name="txtViewWelcome">Welcome To Math Game</string>
+    <string name="txtViewEnterData">Please Enter Your Information</string>
+    <string name="btnStart">Start!</string>
+    <string name="txtNameHint">Please Enter Your Name</string>
+    <string name="txtViewOne">1. 100 + 34 = </string>
+    <string name="btnSubmit">Submit Answer</string>
+    <string name="txtViewTwo">2. 945 - 56 = </string>
+    <string name="txtViewThree">3. 320 / 32 = </string>
+    <string name="txtViewFour">4. 35 x 25 = </string>
+    <string name="txtViewFive">5. 43 + 45  = </string>
+    <string name="edtTextOneHint">Answer</string>
+    <string name="edtTextTwoHint">Answer</string>
+    <string name="edtTextThreeHint">Answer</string>
+    <string name="edtTextFourHint">Answer</string>
+    <string name="edtTextFiveHint">Answer</string>
+    <string name="txtViewName">Please Enter Your Quiz</string>
+    <string name="btnRestart">Try Again?</string>
+
+</resources>
